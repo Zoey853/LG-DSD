@@ -1,0 +1,8 @@
+# Python >=3.11; direct code dependencies, not a historical lock.
+numpy
+timm
+torch
+torchvision
+Pillow
+scikit-learn
+tqdm

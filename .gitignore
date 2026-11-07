@@ -1,0 +1,26 @@
+# Only source, documentation and the explicitly listed split manifests are allowed.
+*
+!*/
+!*.py
+!*.md
+!requirements.txt
+!.gitignore
+!LICENSE
+!splits/AID/split.csv
+!splits/AID/oof_folds.csv
+!splits/AIDER/train_val.csv
+!splits/AIDER/test.csv
+!splits/AIDER/oof_folds.csv
+!splits/RescueNet/train.csv
+!splits/RescueNet/val.csv
+!splits/RescueNet/test.csv
+!splits/RescueNet/oof_folds.csv
+__pycache__/
+.venv/
+venv/
+inputs/
+outputs/
+datasets/
+checkpoints/
+models/
+private/
